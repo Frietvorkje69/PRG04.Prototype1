@@ -7,8 +7,8 @@ import backgroundImage from "./img/background.png"
 
 export class Game {
 
-    private arcade: Arcade
-    private pixi: PIXI.Application
+    public arcade: Arcade
+    public pixi: PIXI.Application
     private joystickListener: EventListener
     private player: Player
     private instructions: PIXI.Text
